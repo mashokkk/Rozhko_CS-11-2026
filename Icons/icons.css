@@ -1,0 +1,128 @@
+
+.body{
+    background-color: #d9d9d9;
+}
+.cards-container{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: repeat(3,180px);
+    gap: 15px;
+    justify-content: center;
+    align-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.card{
+  width: 350px;
+  height: 180px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  padding-left: 30px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border-radius: 30px;
+  border: 1px solid black;
+  box-shadow: 0 3px black;
+
+}
+.card_1{
+    background-color: #f3f3f3;
+    
+}
+.card_2{
+    background-color: #b9ff66;
+}
+.card_3{
+    background-color: #191a23;
+}
+.card_4{
+    background-color: #f3f3f3;
+}
+.card_5{
+    background-color: #b9ff66;
+}
+.card_6{
+    background-color: #191a23;
+}
+.title {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  position: relative;
+}
+.title1 span{
+    background-color: #b9ff66;
+    border-radius: 3px;
+    padding: 1px 2px;
+    grid-column: 1;
+    grid-row: 1;
+    font-weight: 500;
+    
+}
+.title2 span{
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding: 1px 2px;
+    font-weight: 500;
+    
+}
+.title3 span{
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding: 1px 2px;
+    font-weight: 500;
+}
+.title4 span{
+    background-color: #b9ff66;
+    border-radius: 3px;
+    padding: 3px 2px;
+    font-weight: 500;
+}
+.title5 span{
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding: 1px 2px;
+    font-weight: 500;
+}
+.title6 span{
+    background-color: #b9ff66;
+    border-radius: 3px;
+    padding: 1px 2px;
+    font-weight: 500;
+}
+
+.learn_black{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    grid-column: 1;
+    grid-row: 2;
+
+}
+.learn_white{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    grid-column: 1;
+    grid-row: 2;
+    color: #ffffff;
+
+}
+.arrow{
+    width: 25px;
+    
+}
+.img1{
+    grid-column: 2;
+    grid-row: span 2;
+    width: 115px;
+    height: 115px;
+    object-fit: contain;
+    justify-self: center;
+}
