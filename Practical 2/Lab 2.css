@@ -1,0 +1,320 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    display: flex;
+    column-gap: 25px;
+    font-weight: 470;
+    font-size: 14px;
+}
+.font_main{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.font_header{
+  font-family: "Ubuntu", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  margin: 0;
+}
+.container_1{
+    width: 100%;
+    height: 600px;
+    max-width: 900px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 35px;
+    padding-left: 30px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+
+    background-image: url('./la.jpeg');
+    background-position: center;
+    background-size: cover;
+        border-radius: 40px;
+        filter: brightness(0.9);
+
+    .img1{
+        width: 900px;
+        height: 800px;
+    }
+    .content_1{
+        color: #ffffff;
+    }
+    .email_box{
+        display: flex;
+        width: 500px;
+        height: 80px;
+        background-color: #ececec;
+        column-gap: 10px;
+        padding: 0 10px;
+        justify-content: space-between;
+        border-radius: 20px;
+    }
+    .enter{
+        width: 350px;
+        padding: 8px 14px;
+        background-color: white;
+        color: #b3b3b3;
+        border-radius: 20px;
+        font-size: 16px;
+        align-self: center;
+    }
+    .submit{
+        background-color: black;
+        padding: 8px 25px;
+        border-radius: 20px;
+        align-self: center;
+    }
+}
+.container_2{
+    width: 100%;
+    height: 700px;
+    max-width: 1000px;
+    align-items: center;
+    background-color: #fbeced;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+    margin: 0 auto;
+    margin-top: 60px;
+    .imgs_2{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    }
+    .font2{
+    font-size: 20px;
+    padding: 5px;
+    font-weight: 700;
+    }
+    .font2_1{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    font-size: 16px;
+    margin: 0;
+    }
+    .content_2{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    }
+}
+.container_3{
+    width: 100%;
+    height: 800px;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 0px;}
+.content_3{
+    width: 900px;
+    height: 600px;
+    justify-content: space-between;
+    align-items: center;
+}
+.font3{
+    font-size: 48px;
+}
+.font3_1{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.img_3{
+    width: 900px;
+    height: 600px;
+    border-radius: 40px;
+    position: center;
+    margin-top: 20px;
+}
+
+.container_4{
+    width: 100%;
+    height: 550px;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 60px;
+    .content_4{
+    width: 900px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    }
+    .img_4{
+    width: 295px;
+    height: 250px;
+    }
+}
+.container_5{
+    width: 100%;
+    height: 500px;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 70px;
+    .content_5{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .text_container5{
+        width: 440px;
+        height: 500px;
+        background-color: #f0effd;
+        border-radius: 30px;
+    }
+    .text_5{
+        padding: 30px;
+        content: center;
+       
+    }
+    .font5{
+        padding-top: 30px;
+        font-size: 48px;
+    }
+    .font5_1{
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-variation-settings:
+        "wdth" 100;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .font5_2{
+        font-size: 20px;
+        margin-bottom: 25px;
+        font-weight: bold;
+    
+    }
+    .list{
+        padding: 0 0 0 25px;
+    }
+    .img_5{
+    width: 440px;
+    height: 500px;
+    border-radius: 40px;
+}
+}
+.container_6{
+    width: 100%;
+    height: 800px;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    .content_6{
+    width: 900px;
+    height: 600px;
+    justify-content: space-between;
+    align-items: center;
+    }
+}
+.container_7{
+    width: 100%;
+    height: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    background-color: #fbeced;
+    .content_7{
+    width: 900px;
+    height: 300px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    }
+    .name_email{
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 10px;
+    }
+    .enter_NE{
+    width: 350px;
+    height: 45px;
+    background-color: #ffffff;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    gap: 15px;
+    padding-left: 15px;
+    color: #b3b3b3;
+    margin: 0;
+    }
+    .font7{
+    font-size: 48px;
+    padding-top: 60px;
+    }
+    .font_7{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    font-size: 16px;
+    }
+    .submit_2{
+    background-color: black;
+    padding: 10px 28px;
+    border-radius: 18px;
+    align-self: center;
+    color: white;
+    }
+}
+.footer{
+    width: 100%;
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #333333;
+}
+.font_footer{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    font-size: 14px;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-left: 50px;
+    margin: 0;
+}
