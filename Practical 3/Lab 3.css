@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.container_1{
+    width: 100%;
+    height: 1255px;
+    background-color: #4551dd;
+    .img_1{
+    background-image: url('./bbvv.jpg');
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    width: 860px;
+    height: 860px;
+    border-radius: 1000px; 
+    margin: 80px 0 0 150px; 
+}
+.h1{
+    width: 800px;
+    height: 180px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #4551dd;
+    font-size: 70px;
+    color: white;
+    font-weight: 750;
+    padding: 30px 0 30px 30px;
+    margin-right: -920px;
+    border-radius: 20px 0 0 20px;
+}
+.card_container{
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(2,200px);
+    width: 640px;
+    gap: 10px;
+    margin-top: 700px;
+}
+.img2{
+    width: 50px;
+}
+.Math_container{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+}
+
+.montserrat{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
