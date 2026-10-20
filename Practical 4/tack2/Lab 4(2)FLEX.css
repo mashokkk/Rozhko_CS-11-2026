@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.container_1{
+    width: 100%;
+    height: 100vh;
+    background:  #263149;
+background: linear-gradient(180deg, rgba(38, 49, 73, 1) 0%, rgba(38, 49, 73, 1) 50%, rgba(202, 211, 230, 1) 50%, rgba(202, 211, 230, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.league-gothic{
+  font-family: "League Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  color: white;
+}
+.h1{
+  font-size: 58px;
+  margin-top: 30px;
+}
+.icon_phone{
+  width: 30px;
+  height: 30px;
+}
+.phone_number{
+  display: flex;
+  align-items: center;
+  font-size: 58px;
+  gap: 20px;
+}
+.p1{
+  font-size: 58px;
+  margin: 0;
+}
+.phone{
+  font-size: 58px;
+  margin: 0;
+  color: #ff3819;
+}
+.img_container{
+  width: 825px;
+  height: 570px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 15px;
+}
+.img1{
+  width: 405px;
+  height: 350px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./bnbn.jpg);
+  background-size: cover;
+}
+.img2{
+  width: 195px;
+  height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./jkkjjk.jpg);
+  background-size: cover;
+}
+.img3{
+  width: 195px;
+  height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./rtrt.jpg);
+  background-size: cover;
+}
+.img4{
+  width: 195px;
+  height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./tt.jpg);
+  background-size: cover;
+}
+.img5{
+  width: 195px;
+  height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./jhjhjh.jpg);
+  background-size: cover;
+}
+.img6{
+  width: 405px;
+  height: 350px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./nbn.jpg);
+  background-size: cover;
+  margin-top: -150px;
+}
+.h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 38px;
+  letter-spacing: 2px;
+}
+.Freepik{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  color: rgb(103, 102, 102);
+  margin-top: 20px;
+}
