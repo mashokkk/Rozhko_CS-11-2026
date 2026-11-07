@@ -1,0 +1,79 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="task1.js"></script>
+    <script src="task2.js"></script>
+    <script src="task3.js"></script>
+    <script src="task4.js"></script>
+    <script src="task5.js"></script>
+    <script src="task6.js"></script>
+    <script src="task7.js"></script>
+    <script src="task8.js"></script>
+</head>
+
+<body>
+    <h1 class="title">Калькулятори</h1>
+    <div class="main_container">
+        <div class="area"><section class="tasks">
+            <h1 class="title_tasks">Розрахунок площі трикутника за формулою Герона</h1>
+            <input class="style1" id="t1-a" placeholder="Введіть першу сторону:">
+            <input class="style2" id="t1-b" placeholder="Введіть другу сторону:">
+            <input class="style3" id="t1-c" placeholder="Введіть третю сторону:">
+            <button onclick="calculateTask1()">Розрахувати</button>
+            <p class="result" id="t1-result"></p>
+        </section>
+        <section class="tasks">
+            <h1 class="title_tasks">Розрахунок площі трикутника за сторонами і кутом між ними</h1>
+            <input class="style1" id="t2-a" placeholder="Введіть першу сторону:">
+            <input class="style2" id="t2-b" placeholder="Введіть другу сторону:">
+            <input class="style3" id="t2-angle" placeholder="Введіть градусну міру кута:">
+            <button onclick="calculateTask2()">Розрахувати</button>
+            <p class="result" id="t2-result"></p>
+        </section>
+        <section class="tasks">
+            <h1 class="title_tasks">Розрахунок площі трикутника за стороною і висотою</h1>
+            <input class="style1" id="t3-a" placeholder="Введіть першу сторону:">
+            <input class="style2" id="t3-h" placeholder="Введіть висоту:">
+            <button onclick="calculateTask3()">Розрахувати</button>
+            <p class="result" id="t3-result"></p>
+        </section>
+        <section class="tasks t4">
+            <h1 class="title_tasks">Розрахунок площі трикутника за радіусом описаного кола</h1>
+            <input class="style1" id="t4-a" placeholder="Введіть першу сторону:">
+            <input class="style2" id="t4-b" placeholder="Введіть другу сторону:">
+            <input class="style3" id="t4-c" placeholder="Введіть третю сторону:">
+            <input class="style3" id="t4-r" placeholder="Введіть радіус (R):">
+            <button onclick="calculateTask4()">Розрахувати</button>
+            <p class="result" id="t4-result"></p>
+        </section>
+        </div>
+        <div class="calculations"><section class="tasks t5">
+            <h1 class="title_tasks">Перевірка числа на паліндром</h1>
+            <input class="style1" id="t5-number" placeholder="Введіть число:">
+            <button onclick="calculateTask5()">Розрахувати</button>
+            <p class="result" id="t5-result"></p>
+        </section>
+        <section class="tasks t6">
+            <h1 class="title_tasks">Перевірка на анаграму</h1>
+            <input class="style1" id="t6-w1" placeholder="Введіть перше слово:">
+            <input class="style2" id="t6-w2" placeholder="Введіть друге слово:">
+            <button onclick="calculateTask6()">Розрахувати</button>
+            <p class="result" id="t6-result"></p>
+        </section>
+        <section class="tasks t7">
+            <h1 class="title_tasks">Число Фібоначчі за порядковим номером</h1>
+            <input class="style1" id="t7-n" placeholder="Введіть порядковий номер від 1:">
+            <button onclick="calculateTask7()">Розрахувати</button>
+            <p class="result" id="t7-result"></p>
+        </section>
+        <section class="tasks t8">
+            <h1 class="title_tasks">Чи належить число послідовності Фібоначчі?</h1>
+            <input class="style1" id="t8-number" placeholder="Введіть число:">
+            <button onclick="calculateTask8()">Розрахувати</button>
+            <p class="result" id="t8-result"></p>
+        </section>
+        </div>
+    </div>
+</body>
+</html>
