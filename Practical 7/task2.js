@@ -1,4 +1,4 @@
-function calculateTask2(){
+function calculateTask2() {
     const a = parseFloat(document.getElementById("t2-a").value);
     const b = parseFloat(document.getElementById("t2-b").value);
     const angleDeg = parseFloat(document.getElementById("t2-angle").value);

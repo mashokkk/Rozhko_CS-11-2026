@@ -1,4 +1,4 @@
-function calculateTask4(){
+function calculateTask4() {
     const a = parseFloat(document.getElementById("t4-a").value);
     const b = parseFloat(document.getElementById("t4-b").value);
     const c = parseFloat(document.getElementById("t4-c").value);

@@ -73,7 +73,7 @@ body{
     margin-top: 10px;
 }
 input::placeholder, 
-textarea::placeholder {
+textarea::placeholder{
     color: #d4d4d4;
     font-size: 14px;
     font-family: Arial, sans-serif;
